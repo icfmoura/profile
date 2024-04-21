@@ -6,12 +6,17 @@
 
 main {
     width: 280px;
-    height: 310px;
+    height: 380px;
     background-color: rgb(217, 135, 29);
     padding: 20px;
     margin: auto;
-    border-radius:10px;
+    border-radius:15px;
     text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 1.2em;
 }
 
 div {
@@ -43,7 +48,7 @@ a:hover {
 
 p {
     display: inline-block;
-    border: solid 2px #f9be0bfa;
+    border: solid #f9be0bfa;
     height: 20px;
     width: 80px;
     border-radius: 5px;
