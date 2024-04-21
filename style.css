@@ -54,6 +54,7 @@ p {
     border-radius: 5px;
     margin: 10px;
     background-color: #FEBB31;
+    text-shadow: 2px 2px 5px rgba(4, 0, 0, 0.719);
 }
 
 p:hover {
