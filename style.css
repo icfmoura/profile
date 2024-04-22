@@ -14,12 +14,12 @@ main {
     text-align: center;
 }
 
-h2 {
+.idade {
     color: white;
     font-size: 1.2em;
 }
 
-div {
+.nome {
     background-color: #FEBB31;
     height: 40px;
     border-radius: 10px;
@@ -31,33 +31,33 @@ div {
     text-shadow: 2px 2px 5px rgba(4, 0, 0, 0.719);
 }
 
-
-a {
+.link {
     text-decoration: none;
     color: #FEBB31;
 }
 
-a:visited {
+.link:visited {
     color: #ffffff;
 }
 
-a:hover {
-    text-decoration: none;
-    color: #0c0b01ac;
-}
-
-p {
+.redeSocial {
     display: inline-block;
     border: solid #f9be0bfa;
     height: 20px;
     width: 80px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 3px;
     background-color: #FEBB31;
     text-shadow: 2px 2px 5px rgba(4, 0, 0, 0.719);
 }
 
-p:hover {
+.redeSocial:hover .link {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.redeSocial:hover {
     background-color: white;
-    border: solid 2px black;
+    border: solid 2px white;
 }
